@@ -48,7 +48,7 @@
   margin-top: 15vh;
 }
 
-.pic-ctn > img {
+.pic-ctn > .doc {
   position: absolute;
   top: 0;
   left: calc(50% - 100px);
@@ -56,13 +56,13 @@
   animation: display 10s infinite;
 }
 
-img:nth-child(2) {
+.doc:nth-child(2) {
   animation-delay: 2s;
 }
-img:nth-child(3) {
+.doc:nth-child(3) {
   animation-delay: 4s;
 }
-img:nth-child(4) {
+.doc:nth-child(4) {
   animation-delay: 6s;
 }
 img:nth-child(5) {
