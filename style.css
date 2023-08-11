@@ -3,7 +3,11 @@
   padding: 0;
   background: #D3D3D3;
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 .carrossel__titulo{
   color: orange;
   background-color: white;
